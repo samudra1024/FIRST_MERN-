@@ -7,17 +7,6 @@ import { BsFillInfoCircleFill, BsInfoCircle } from 'react-icons/bs'
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md'
 import { PiBookOpenTextLight } from 'react-icons/pi'
 import { BiUserCircle } from 'react-icons/bi'
-import {
-	Popover,
-	PopoverTrigger,
-	PopoverContent,
-	PopoverHeader,
-	PopoverBody,
-	PopoverFooter,
-	PopoverArrow,
-	PopoverCloseButton,
-	PopoverAnchor,
-  } from '@chakra-ui/react'
 
 
 const CardView = ({ Book }) => {
