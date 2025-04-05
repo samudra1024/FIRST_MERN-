@@ -7,7 +7,7 @@ const BackButton = ({destination='/'}) => {
   return (
     <div>
         <Link to={destination} >
-            <BiLeftArrowAlt className='size-10'/>
+            <BiLeftArrowAlt className='size-10 active:animate-ping'/>
         </Link>
     </div>
   )

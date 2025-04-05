@@ -16,8 +16,6 @@ app.get('/',(req,res)=> {
     return res.status(234).send("This is sent by 234");
 })
 
-
-
 mongoose
     .connect(mongodb)
     .then(()=>{
@@ -29,5 +27,3 @@ mongoose
     .catch((error)=>{
         console.log(error);
     })
-
-

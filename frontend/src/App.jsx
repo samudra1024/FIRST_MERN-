@@ -9,7 +9,6 @@ import Home from './pages/home'
 const App = () => {
   return (
     <Routes>
-      {/* <Route path='/' element={<DashboardLayoutNavigationLinks/>} /> */}
       <Route path='/' element={<Home/>} />
       <Route path='/books/create' element={<Createbook/>} />
       <Route path='/books/delete/:id' element={<Deletebook/>} />
